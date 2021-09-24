@@ -1,0 +1,92 @@
+#site {
+    display: grid;
+    grid-template-areas: 
+        'menu  menu  menu  menu menu'
+        'video   video video recomendados recomendados'
+        'titulo titulo titulo recomendados recomendados'
+        'canal canal canal recomendados recomendados'
+        'comentarios comentarios comentarios recomendados recomendados'
+    ;
+}
+
+#menu {
+    background-color: #95afc0;
+    padding: 15px;
+    margin: 0px;
+    text-align: center;
+    grid-area: menu;
+}
+#video {
+    background-color: #130f40;
+    padding: 200px;
+    margin: 20px 20px 1px 80px;
+    text-align: center;
+    grid-area: video;
+}
+#titulo {
+    background-color: #30336b;
+    padding: 30px;
+    margin: 0px 20px 0px 80px;
+    text-align: center;
+    grid-area: titulo;
+}
+#canal {
+    background-color: #535c68;
+    padding: 60px;
+    margin: 1px 20px 1px 80px;
+    text-align: center;
+    grid-area: canal;
+}
+#comentarios {
+    background-color: #f0932b;
+    padding: auto;
+    margin: 1px 20px 20px 80px;
+    text-align: center;
+    grid-area: comentarios;
+}
+
+#recomendados {
+    background-color: #f6e58d;
+    padding: auto;
+    margin: 20px 80px 20px 0px;
+    text-align: center;
+    grid-area: recomendados;
+    
+}
+
+#layoutcomentarios {
+    display: grid;
+    grid-template-columns: auto 80%;
+    column-gap: 2px;
+    row-gap: 10px;
+}
+.foto {
+    background-color: #ff7979;
+    text-align: center;
+    padding: 50px;
+}
+
+.exemplo {
+    background-color: #eb4d4b;
+    text-align: center;
+    padding: 50px;
+    
+}
+
+#layoutrecomendados {
+    display: grid;
+    grid-template-columns: 200px auto;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+.thumbnail {
+    background-color: #c983af;
+    text-align: center;
+    padding: 50px;
+}
+.titulodestaque {
+    background-color: #5d4264;
+    text-align: center;
+    padding: 50px;
+    
+}

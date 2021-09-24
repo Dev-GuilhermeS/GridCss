@@ -1,0 +1,90 @@
+#site {
+    display: grid;
+    grid-template-areas: 
+        'menu  menu  menu  menu'
+        'foto   nomeconta nomeconta nomeconta'
+        'foto perfil perfil perfil'
+        'foto descricao descricao descricao'
+        'destaque destaque destaque destaque'
+        'publicacoes publicacoes publicacoes publicacoes'
+        'feed feed feed feed'
+        'rodape rodape rodape rodape '
+    ;
+}
+
+#menu {
+    background-color: #95afc0;
+    padding: 20px;
+    text-align: center;
+    grid-area: menu;
+}
+#foto {
+    background-color: #30336b;
+    padding: 50px;
+    margin: 10px 5px 0px 200px;
+    text-align: center;
+    grid-area: foto;
+}
+#nomeconta {
+    background-color: #776ecc;
+    padding: 10px;
+    margin: 10px 200px 0px 1px;
+    text-align: center;
+    grid-area: nomeconta;
+}
+#perfil {
+    background-color: #535c68;
+    padding: 15px;
+    margin: 1px 200px 1px 1px;
+    text-align: center;
+    grid-area: perfil;
+}
+#descricao {
+    background-color: #f0932b;
+    padding: 50px;
+    margin: 1px 200px 1px 1px;
+    text-align: center;
+    grid-area: descricao;
+}
+
+#destaque {
+    background-color: #771414;
+    padding: 35px;
+    margin: 5px 200px 2px 200px;
+    text-align: center;
+    grid-area: destaque;
+    
+}
+#publicacoes {
+    background-color: #f6e58d;
+    padding: 10px;
+    margin: 2px 200px 2px 200px;
+    text-align: center;
+    grid-area: publicacoes;
+    
+}
+#feed {
+    background-color: #ebb8a6;
+    margin: 2px 200px 0px 200px;
+    text-align: center;
+    grid-area: feed;
+    
+}
+#layoutfeed {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.imagem {
+    background-color: #ff7979;
+    text-align: center;
+    padding: 100px;
+}
+#rodape {
+    background-color: #58b8f8;
+    padding: 20px;
+    margin: 5px 200px 5px 200px;
+    text-align: center;
+    grid-area: rodape;
+}
